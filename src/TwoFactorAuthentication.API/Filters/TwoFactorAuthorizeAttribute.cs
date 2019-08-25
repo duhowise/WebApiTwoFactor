@@ -4,10 +4,9 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
-using TwoFactorAuthentication.API.Controllers;
 using TwoFactorAuthentication.API.Helpers;
 
-namespace TwoFactorAuthentication.API.Filters
+namespace TwoFactorAuthentication.API.Controllers
 {
     public class TwoFactorAuthorizeAttribute : AuthorizationFilterAttribute
     {

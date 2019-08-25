@@ -1,6 +1,4 @@
 ﻿using System.Web.Http;
-using TwoFactorAuthentication.API.Filters;
-using TwoFactorAuthentication.API.Models;
 
 namespace TwoFactorAuthentication.API.Controllers
 {

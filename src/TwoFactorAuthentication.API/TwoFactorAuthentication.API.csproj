@@ -107,9 +107,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="TwoStepsAuthenticator, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TwoStepsAuthenticator.1.2.0\lib\net45\TwoStepsAuthenticator.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -135,7 +132,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Helpers\CustomError.cs" />
-    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Controllers\Transaction.cs" />
     <Compile Include="Controllers\TransactionsController.cs" />
     <Compile Include="Helpers\TransferModeyModel.cs" />
     <Compile Include="Filters\TwoFactorAuthorizeAttribute.cs" />
